@@ -1,6 +1,4 @@
-
-# Exam #2: "Sandwich"
-## Student: s361192 ROY PRATIK
+ROY PRATIK
 
 ## React Client Application Routes
 
