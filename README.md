@@ -1,10 +1,10 @@
-# 🥪 FirewallWiz Sandwich Shop
+#  FirewallWiz Sandwich Shop
 
 This project is a complete sandwich ordering system featuring a dynamic custom sandwich configurator, real-time inventory management, a digital wallet credit system, and robust security featuring Two-Factor Authentication (TOTP).
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Dynamic Sandwich Configurator:** Build custom sandwiches by selecting size, bread, main ingredient, and multiple toppings/dressings.
 - **Live Pricing Engine:** Calculates prices instantly based on base size costs and extra ingredients.
@@ -15,9 +15,9 @@ This project is a complete sandwich ordering system featuring a dynamic custom s
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
-### 🖥️ React Client (Frontend)
+###  React Client (Frontend)
 
 The frontend is a Single Page Application (SPA) built with React and Vite. 
 
@@ -34,7 +34,7 @@ The frontend is a Single Page Application (SPA) built with React and Vite.
 - `/configurator` - Custom sandwich builder
 - `/orders` - User's order history and management
 
-### ⚙️ API Server (Backend)
+###  API Server (Backend)
 
 The backend is built with Express.js and interfaces with an SQLite database using the DAO (Data Access Object) pattern.
 
@@ -67,7 +67,7 @@ The database is highly relational to support complex order configurations:
 
 ---
 
-## 🔐 Demo Credentials
+##  Demo Credentials
 
 All users have Two-Factor Authentication enabled.
 The TOTP Secret for all users is: `LXBSMDTMSP2I5XFXIYRGFVWSFI`
@@ -81,13 +81,13 @@ The TOTP Secret for all users is: `LXBSMDTMSP2I5XFXIYRGFVWSFI`
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ![Application Screenshot](./img/image.png)
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 1. **Install Dependencies:**
    - In the `server/` directory: run `npm install`
